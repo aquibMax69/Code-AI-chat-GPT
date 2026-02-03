@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immersive Hero Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero" id="hero">
+        <div class="hero__glow"></div>
+        <div class="hero__content">
+          <span class="hero__eyebrow">Immersive Narrative</span>
+          <h1>Forge the Future of Cinematic Worlds</h1>
+          <p>
+            A premium hero experience built for depth, clarity, and motion. Meet the
+            sentinel that anchors your story while data floats into view with effortless
+            grace.
+          </p>
+          <button class="scroll-indicator" type="button">
+            <span>Scroll</span>
+            <span class="scroll-indicator__dot"></span>
+          </button>
+        </div>
+
+        <div class="character" aria-hidden="true">
+          <img src="assets/character.svg" alt="" />
+        </div>
+
+        <div class="info-cards" aria-hidden="true">
+          <article class="info-card card-left card-left--top">
+            <h3>Adaptive AI</h3>
+            <p>Predictive behaviors that evolve with the viewer.</p>
+          </article>
+          <article class="info-card card-left card-left--bottom">
+            <h3>Holo UI</h3>
+            <p>Layered interfaces that stay crisp in motion.</p>
+          </article>
+          <article class="info-card card-right card-right--top">
+            <h3>Realtime Depth</h3>
+            <p>Cinematic parallax tuned for subtle immersion.</p>
+          </article>
+          <article class="info-card card-right card-right--bottom">
+            <h3>Pulse Metrics</h3>
+            <p>Live sentiment scoring with premium fidelity.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="next-section">
+        <div class="next-section__content">
+          <h2>Continue the Journey</h2>
+          <p>
+            As the hero recedes, your narrative unfolds with clarity and intention.
+            Build a seamless transition into the next story beat.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

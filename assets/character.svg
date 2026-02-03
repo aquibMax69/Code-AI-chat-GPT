@@ -1,0 +1,27 @@
+<svg width="420" height="720" viewBox="0 0 420 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body" x1="210" y1="40" x2="210" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3BD6C6" stop-opacity="0.9" />
+      <stop offset="0.55" stop-color="#1A2C3C" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#0B1118" />
+    </linearGradient>
+    <linearGradient id="accent" x1="140" y1="220" x2="280" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7B6F" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#30D6C5" stop-opacity="0.65" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 180) scale(160 120)">
+      <stop stop-color="#30D6C5" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#30D6C5" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="210" cy="180" rx="150" ry="110" fill="url(#glow)" />
+  <path
+    d="M210 50C260 52 296 86 300 134C304 183 277 235 245 260C233 270 226 286 230 300L255 430C260 470 238 520 210 540C182 520 160 470 165 430L190 300C194 286 187 270 175 260C143 235 116 183 120 134C124 86 160 52 210 50Z"
+    fill="url(#body)"
+  />
+  <path d="M190 210H230C245 210 258 224 258 240V330C258 350 242 366 222 366H198C178 366 162 350 162 330V240C162 224 175 210 190 210Z" fill="#0F1C28" />
+  <path d="M205 230H215C232 230 246 244 246 262V318C246 336 232 350 215 350H205C188 350 174 336 174 318V262C174 244 188 230 205 230Z" fill="url(#accent)" opacity="0.75" />
+  <path d="M150 320C135 330 124 350 122 372L112 470C110 496 124 520 148 532L170 544C182 550 196 552 210 552C224 552 238 550 250 544L272 532C296 520 310 496 308 470L298 372C296 350 285 330 270 320L240 300C225 290 195 290 180 300L150 320Z" fill="#0E1824" />
+  <path d="M190 420H230C244 420 256 432 256 446V474C256 492 242 506 224 506H196C178 506 164 492 164 474V446C164 432 176 420 190 420Z" fill="url(#accent)" opacity="0.65" />
+  <path d="M140 560C120 602 132 650 170 668C190 678 230 678 250 668C288 650 300 602 280 560L260 516C235 520 185 520 160 516L140 560Z" fill="#0B1219" />
+</svg>
